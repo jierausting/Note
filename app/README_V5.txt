@@ -1,0 +1,7 @@
+修改的地方：
+1.DiaryListActivity中调用EditActivity时全部换用StartActivityForResult
+2.EditActivity在返回按钮中加入了setResult的操作，同时加入了一个布尔值来判断是否点击了save按钮
+3.MyAdapter更改了对图片为null的处理，会以日期来决定用哪一张doge图片来代替。
+4.nav_header_diary_list的省略号一开始是用string直接输入，后面换做了图片来代替
+5.diary_item的布局中定死了imageview的高度
+6.加入了4张图片，noimagever1.jpg,noimagever2.jpg,noimagerver3.jpg,dash.png

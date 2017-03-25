@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:weightSum="7">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/record_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="30"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/colorLightBlue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="4.6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="齐木楠雄真好看,齐照党大法好，唱歌唱得真像花江夏树"
+            android:id="@+id/record_content"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/record_img"
+        android:scaleType="fitXY"
+        android:layout_weight="1.4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/test01"/>
+
+<!--    <TextView
+        android:paddingStart="20dp"
+        android:id="@+id/record_weather"
+        android:textSize="30sp"
+        android:text="x"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+</LinearLayout>

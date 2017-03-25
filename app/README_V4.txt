@@ -1,0 +1,3 @@
+（1）time_dialog.xml文件里关于TimePicker标签里的一些属性作了相应修改。
+（2）DiaryListActivity 里面关于fab点击触发事件作了修改。
+（3）TimeAlertDialog增加了获取小时和分钟的方法，还有增加了Picker 是否能操作的方法，以及设置Picker透明度的方法。

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Diary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pleaseInputPassword">请输入密码</string>
+    <string name="pleaseInputUsername">请输用户名</string>
+    <string name="pleaseInputPasswordAgain">请确认密码</string>
+    <string name="MyDiary">My Diary</string>
+    <string name="RecordEverydayOfYourLife">Record Everyday of Your Life.</string>
+
+    <string name="cancel">取消</string>
+    <string name="save">确定</string>
+    <string name="set">修改</string>
+
+    <string name="AlarmOn">日记提醒功能已开启</string>
+    <string name="AlarmOff">日记提醒功能已关闭</string>
+</resources>
